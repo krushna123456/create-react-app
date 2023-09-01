@@ -1,9 +1,9 @@
-# on:
-#   workflow_call:
-#     inputs:
-#       testScript:
-#         required: true
-#         type: string
+on:
+  workflow_call:
+    inputs:
+      testScript:
+        required: true
+        type: string
 
 # name: E2E
 
