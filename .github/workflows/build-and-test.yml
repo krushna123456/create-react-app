@@ -66,6 +66,6 @@ jobs:
 
   e2e-kitchensink:
     name: E2E Kitchensink
-  #   uses: ./.github/workflows/e2e-base.yml
-  #   with:
-  #     testScript: 'tasks/e2e-kitchensink.sh'
+    uses: ./.github/workflows/e2e-base.yml
+    with:
+      testScript: 'tasks/e2e-kitchensink.sh'
